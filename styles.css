@@ -1,0 +1,91 @@
+
+/* Reset default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Calculator container styles */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Calculator styles */
+  .calculator {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input field styles */
+  .calculator input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: right;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #333;
+    color: orange;
+    box-sizing: border-box;
+  }
+  
+  /* Button container styles */
+  .calculator .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  /* Button styles */
+  .calculator button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  /* Equals button styles */
+  .calculator button.equals-button {
+    grid-column: span 2;
+    background-color: orange;
+  }
+  
+  /* Active state styles for buttons */
+  .calculator button:active {
+    background-color: #ddd;
+  }
+  
+  /* Disabled state styles for buttons */
+  .calculator button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Special button styles */
+  .calculator button.special-button {
+    background-color: #797979;
+    color: #fff;
+  }
+  
+  /* Active state styles for equals button */
+  .calculator button.equals-button:active {
+    background-color: rgb(209, 141, 15);
+  }
+  
