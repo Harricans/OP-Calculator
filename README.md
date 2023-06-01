@@ -11,3 +11,6 @@ Calc.js is a simple calculator web application built with HTML, CSS, and JavaScr
 - Clearing the input field
 - Changing the sign of the number
 - Deleting the last character (backspace)
+
+## Live Demo
+https://harricans.github.io/OP-Calculator/
